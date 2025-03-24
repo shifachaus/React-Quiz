@@ -129,6 +129,16 @@ progress {
   transition: 0.3s;
 }
 
+.pill{
+  font-family: inherit;
+  color: inherit;
+  border: 2px solid var(--color-dark);
+  background-color: var(--color-dark);
+  padding: .4rem 1.4rem;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
 .btn:not([disabled]):hover {
   background-color: var(--color-darkest);
 }
@@ -180,7 +190,7 @@ progress {
   padding: 2rem 0;
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 .result span {

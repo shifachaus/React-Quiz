@@ -24,7 +24,7 @@ const FinishScreen = ({
       </p>
 
       <p className="highscore">
-        HI {highscore} - {highesthighscore} points
+        HI <span className="pill">{highscore}</span> | <span className="pill">{highesthighscore}</span> points
       </p>
 
       <button
